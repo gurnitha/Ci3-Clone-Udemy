@@ -266,3 +266,10 @@
         modified:   application/controllers/Welcome.php
         new file:   application/views/admin/index.php
         new file:   readme.md
+
+#### 3. Use url helper to load assets
+
+        modified:   application/config/autoload.php
+        modified:   application/views/admin/index.php
+
+        Example: <?php echo base_url(); ?>assets/bootstrap/dist/css/bootstrap.min.css"

@@ -7,20 +7,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/plugins/images/favicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="<?php echo base_url(); ?>assets/plugins/images/favicon.png">
     <title>Elite Hospital Admin Template - Hospital admin dashboard web app kit</title>
     <!-- Bootstrap Core CSS -->
-   <link href="bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/plugins/bower_components/bootstrap-extension/css/bootstrap-extension.css" rel="stylesheet">
+   <link href="<?php echo base_url(); ?>assets/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?php echo base_url(); ?>assets/plugins/bower_components/bootstrap-extension/css/bootstrap-extension.css" rel="stylesheet">
     <!-- Menu CSS -->
-    <link href="assets/plugins/bower_components/sidebar-nav/dist/sidebar-nav.min.css" rel="stylesheet">
-    <link href="assets/plugins/bower_components/bootstrap-datepicker/bootstrap-datepicker.min.css" rel="stylesheet" type="text/css" />
+    <link href="<?php echo base_url(); ?>assets/plugins/bower_components/sidebar-nav/dist/sidebar-nav.min.css" rel="stylesheet">
+    <link href="<?php echo base_url(); ?>assets/plugins/bower_components/bootstrap-datepicker/bootstrap-datepicker.min.css" rel="stylesheet" type="text/css" />
     <!-- animation CSS -->
-    <link href="assets/css/animate.css" rel="stylesheet">
+    <link href="<?php echo base_url(); ?>assets/css/animate.css" rel="stylesheet">
     <!-- Custom CSS -->
-    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="<?php echo base_url(); ?>assets/css/style.css" rel="stylesheet">
     <!-- color CSS -->
-    <link href="assets/css/colors/megna.css" id="theme" rel="stylesheet">
+    <link href="<?php echo base_url(); ?>assets/css/colors/megna.css" id="theme" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -38,7 +38,7 @@
         <!-- Navigation -->
         <nav class="navbar navbar-default navbar-static-top m-b-0">
             <div class="navbar-header"> <a class="navbar-toggle hidden-sm hidden-md hidden-lg " href="javascript:void(0)" data-toggle="collapse" data-target=".navbar-collapse"><i class="ti-menu"></i></a>
-                <div class="top-left-part"><a class="logo" href="index.html"><b><img src="assets/plugins/images/eliteadmin-logo.png" alt="home" /></b><span class="hidden-xs"><strong>elite</strong>hospital</span></a></div>
+                <div class="top-left-part"><a class="logo" href="index.html"><b><img src="<?php echo base_url(); ?>assets/plugins/images/eliteadmin-logo.png" alt="home" /></b><span class="hidden-xs"><strong>elite</strong>hospital</span></a></div>
                 <ul class="nav navbar-top-links navbar-left hidden-xs">
                     <li><a href="javascript:void(0)" class="open-close hidden-xs waves-effect waves-light"><i class="icon-arrow-left-circle ti-menu"></i></a></li>
                     <li>
@@ -57,22 +57,22 @@
                             <li>
                                 <div class="message-center">
                                     <a href="#">
-                                        <div class="user-img"> <img src="assets/plugins/images/users/pawandeep.jpg" alt="user" class="img-circle"> <span class="profile-status online pull-right"></span> </div>
+                                        <div class="user-img"> <img src="<?php echo base_url(); ?>assets/plugins/images/users/pawandeep.jpg" alt="user" class="img-circle"> <span class="profile-status online pull-right"></span> </div>
                                         <div class="mail-contnet">
                                             <h5>Pavan kumar</h5> <span class="mail-desc">Just see the my admin!</span> <span class="time">9:30 AM</span> </div>
                                     </a>
                                     <a href="#">
-                                        <div class="user-img"> <img src="assets/plugins/images/users/sonu.jpg" alt="user" class="img-circle"> <span class="profile-status busy pull-right"></span> </div>
+                                        <div class="user-img"> <img src="<?php echo base_url(); ?>assets/plugins/images/users/sonu.jpg" alt="user" class="img-circle"> <span class="profile-status busy pull-right"></span> </div>
                                         <div class="mail-contnet">
                                             <h5>Sonu Nigam</h5> <span class="mail-desc">I've sung a song! See you at</span> <span class="time">9:10 AM</span> </div>
                                     </a>
                                     <a href="#">
-                                        <div class="user-img"> <img src="assets/plugins/images/users/arijit.jpg" alt="user" class="img-circle"> <span class="profile-status away pull-right"></span> </div>
+                                        <div class="user-img"> <img src="<?php echo base_url(); ?>assets/plugins/images/users/arijit.jpg" alt="user" class="img-circle"> <span class="profile-status away pull-right"></span> </div>
                                         <div class="mail-contnet">
                                             <h5>Arijit Sinh</h5> <span class="mail-desc">I am a singer!</span> <span class="time">9:08 AM</span> </div>
                                     </a>
                                     <a href="#">
-                                        <div class="user-img"> <img src="assets/plugins/images/users/pawandeep.jpg" alt="user" class="img-circle"> <span class="profile-status offline pull-right"></span> </div>
+                                        <div class="user-img"> <img src="<?php echo base_url(); ?>assets/plugins/images/users/pawandeep.jpg" alt="user" class="img-circle"> <span class="profile-status offline pull-right"></span> </div>
                                         <div class="mail-contnet">
                                             <h5>Pavan kumar</h5> <span class="mail-desc">Just see the my admin!</span> <span class="time">9:02 AM</span> </div>
                                     </a>
@@ -141,7 +141,7 @@
                     </li>
                     <!-- /.dropdown -->
                     <li class="dropdown">
-                        <a class="dropdown-toggle profile-pic" data-toggle="dropdown" href="#"> <img src="assets/plugins/images/users/d1.jpg" alt="user-img" width="36" class="img-circle"><b class="hidden-xs">Dr. Steave</b> </a>
+                        <a class="dropdown-toggle profile-pic" data-toggle="dropdown" href="#"> <img src="<?php echo base_url(); ?>assets/plugins/images/users/d1.jpg" alt="user-img" width="36" class="img-circle"><b class="hidden-xs">Dr. Steave</b> </a>
                         <ul class="dropdown-menu dropdown-user animated flipInY">
                             <li><a href="javascript:void(0)"><i class="ti-user"></i>  My Profile</a></li>
                             <li><a href="javascript:void(0)"><i class="ti-email"></i>  Inbox</a></li>
@@ -171,7 +171,7 @@
                         <!-- /input-group -->
                     </li>
                     <li class="user-pro">
-                        <a href="#" class="waves-effect"><img src="assets/plugins/images/users/d1.jpg" alt="user-img" class="img-circle"> <span class="hide-menu">Dr. Steve Gection<span class="fa arrow"></span></span>
+                        <a href="#" class="waves-effect"><img src="<?php echo base_url(); ?>assets/plugins/images/users/d1.jpg" alt="user-img" class="img-circle"> <span class="hide-menu">Dr. Steve Gection<span class="fa arrow"></span></span>
                         </a>
                         <ul class="nav nav-second-level">
                             <li><a href="javascript:void(0)"><i class="ti-user"></i> My Profile</a></li>
@@ -707,28 +707,28 @@
                             <ul class="m-t-20 chatonline">
                                 <li><b>Chat option</b></li>
                                 <li>
-                                    <a href="javascript:void(0)"><img src="assets/plugins/images/users/varun.jpg" alt="user-img" class="img-circle"> <span>Varun Dhavan <small class="text-success">online</small></span></a>
+                                    <a href="javascript:void(0)"><img src="<?php echo base_url(); ?>assets/plugins/images/users/varun.jpg" alt="user-img" class="img-circle"> <span>Varun Dhavan <small class="text-success">online</small></span></a>
                                 </li>
                                 <li>
-                                    <a href="javascript:void(0)"><img src="assets/plugins/images/users/genu.jpg" alt="user-img" class="img-circle"> <span>Genelia Deshmukh <small class="text-warning">Away</small></span></a>
+                                    <a href="javascript:void(0)"><img src="<?php echo base_url(); ?>assets/plugins/images/users/genu.jpg" alt="user-img" class="img-circle"> <span>Genelia Deshmukh <small class="text-warning">Away</small></span></a>
                                 </li>
                                 <li>
-                                    <a href="javascript:void(0)"><img src="assets/plugins/images/users/ritesh.jpg" alt="user-img" class="img-circle"> <span>Ritesh Deshmukh <small class="text-danger">Busy</small></span></a>
+                                    <a href="javascript:void(0)"><img src="<?php echo base_url(); ?>assets/plugins/images/users/ritesh.jpg" alt="user-img" class="img-circle"> <span>Ritesh Deshmukh <small class="text-danger">Busy</small></span></a>
                                 </li>
                                 <li>
-                                    <a href="javascript:void(0)"><img src="assets/plugins/images/users/arijit.jpg" alt="user-img" class="img-circle"> <span>Arijit Sinh <small class="text-muted">Offline</small></span></a>
+                                    <a href="javascript:void(0)"><img src="<?php echo base_url(); ?>assets/plugins/images/users/arijit.jpg" alt="user-img" class="img-circle"> <span>Arijit Sinh <small class="text-muted">Offline</small></span></a>
                                 </li>
                                 <li>
-                                    <a href="javascript:void(0)"><img src="assets/plugins/images/users/govinda.jpg" alt="user-img" class="img-circle"> <span>Govinda Star <small class="text-success">online</small></span></a>
+                                    <a href="javascript:void(0)"><img src="<?php echo base_url(); ?>assets/plugins/images/users/govinda.jpg" alt="user-img" class="img-circle"> <span>Govinda Star <small class="text-success">online</small></span></a>
                                 </li>
                                 <li>
-                                    <a href="javascript:void(0)"><img src="assets/plugins/images/users/hritik.jpg" alt="user-img" class="img-circle"> <span>John Abraham<small class="text-success">online</small></span></a>
+                                    <a href="javascript:void(0)"><img src="<?php echo base_url(); ?>assets/plugins/images/users/hritik.jpg" alt="user-img" class="img-circle"> <span>John Abraham<small class="text-success">online</small></span></a>
                                 </li>
                                 <li>
-                                    <a href="javascript:void(0)"><img src="assets/plugins/images/users/john.jpg" alt="user-img" class="img-circle"> <span>Hritik Roshan<small class="text-success">online</small></span></a>
+                                    <a href="javascript:void(0)"><img src="<?php echo base_url(); ?>assets/plugins/images/users/john.jpg" alt="user-img" class="img-circle"> <span>Hritik Roshan<small class="text-success">online</small></span></a>
                                 </li>
                                 <li>
-                                    <a href="javascript:void(0)"><img src="assets/plugins/images/users/pawandeep.jpg" alt="user-img" class="img-circle"> <span>Pwandeep rajan <small class="text-success">online</small></span></a>
+                                    <a href="javascript:void(0)"><img src="<?php echo base_url(); ?>assets/plugins/images/users/pawandeep.jpg" alt="user-img" class="img-circle"> <span>Pwandeep rajan <small class="text-success">online</small></span></a>
                                 </li>
                             </ul>
                         </div>
@@ -743,31 +743,31 @@
     </div>
     <!-- /#wrapper -->
     <!-- jQuery -->
-    <script src="assets/plugins/bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="<?php echo base_url(); ?>assets/plugins/bower_components/jquery/dist/jquery.min.js"></script>
     <!-- Bootstrap Core JavaScript -->
     <script src="bootstrap/dist/js/tether.min.js"></script>
     <script src="bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="assets/plugins/bower_components/bootstrap-extension/js/bootstrap-extension.min.js"></script>
+    <script src="<?php echo base_url(); ?>assets/plugins/bower_components/bootstrap-extension/js/bootstrap-extension.min.js"></script>
     <!-- Menu Plugin JavaScript -->
-    <script src="assets/plugins/bower_components/sidebar-nav/dist/sidebar-nav.min.js"></script>
+    <script src="<?php echo base_url(); ?>assets/plugins/bower_components/sidebar-nav/dist/sidebar-nav.min.js"></script>
 
     <!--slimscroll JavaScript -->
-    <script src="assets/js/jquery.slimscroll.js"></script>
+    <script src="<?php echo base_url(); ?>assets/js/jquery.slimscroll.js"></script>
     <!--Wave Effects -->
-    <script src="assets/js/waves.js"></script>
+    <script src="<?php echo base_url(); ?>assets/js/waves.js"></script>
     <!--Morris JavaScript -->
-    <script src="assets/plugins/bower_components/raphael/raphael-min.js"></script>
-    <script src="assets/plugins/bower_components/morrisjs/morris.js"></script>
+    <script src="<?php echo base_url(); ?>assets/plugins/bower_components/raphael/raphael-min.js"></script>
+    <script src="<?php echo base_url(); ?>assets/plugins/bower_components/morrisjs/morris.js"></script>
     <!-- Sparkline chart JavaScript -->
-    <script src="assets/plugins/bower_components/jquery-sparkline/jquery.sparkline.min.js"></script>
+    <script src="<?php echo base_url(); ?>assets/plugins/bower_components/jquery-sparkline/jquery.sparkline.min.js"></script>
     <!-- jQuery peity -->
-    <script src="assets/plugins/bower_components/peity/jquery.peity.min.js"></script>
-    <script src="assets/plugins/bower_components/peity/jquery.peity.init.js"></script>
+    <script src="<?php echo base_url(); ?>assets/plugins/bower_components/peity/jquery.peity.min.js"></script>
+    <script src="<?php echo base_url(); ?>assets/plugins/bower_components/peity/jquery.peity.init.js"></script>
     <!-- Custom Theme JavaScript -->
-    <script src="assets/js/custom.min.js"></script>
-    <script src="assets/js/dashboard1.js"></script>
+    <script src="<?php echo base_url(); ?>assets/js/custom.min.js"></script>
+    <script src="<?php echo base_url(); ?>assets/js/dashboard1.js"></script>
     <!--Style Switcher -->
-    <script src="assets/plugins/bower_components/styleswitcher/jQuery.style.switcher.js"></script>
+    <script src="<?php echo base_url(); ?>assets/plugins/bower_components/styleswitcher/jQuery.style.switcher.js"></script>
 
 
 
