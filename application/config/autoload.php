@@ -57,6 +57,11 @@ $autoload['packages'] = array();
 | in the controller:
 |
 |	$autoload['libraries'] = array('user_agent' => 'ua');
+|
+| MY NOTE:
+| If you put parameter in $autoload['libraries'] it will be loaded authomatically 
+| In stead, you can also manually load your parameters (database, session)in the Controller
+
 */
 $autoload['libraries'] = array('pagination', 'xmlrpc','form_validation','email','upload');
 

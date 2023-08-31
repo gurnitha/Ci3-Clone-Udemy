@@ -288,3 +288,10 @@
 
         modified:   application/config/autoload.php
         modified:   readme.md
+        modified:   readme.md
+
+#### 7. Create Auth controller and set parameters in autoload
+
+        modified:   application/config/autoload.php
+        new file:   application/controllers/Auth.php
+        modified:   readme.md
