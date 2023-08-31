@@ -295,3 +295,8 @@
         modified:   application/config/autoload.php
         new file:   application/controllers/Auth.php
         modified:   readme.md
+
+#### 8. Load the db and session from Auth controller
+
+        modified:   application/controllers/Auth.php
+        modified:   readme.md
