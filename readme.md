@@ -331,3 +331,8 @@
         The codes to display data is too long.
         Next: there should be a way to shorten it. Use helpers to solve it.
 
+#### 12. Create general_helper and defining get_seetings fungction in it
+
+        new file:   application/helpers/general_helper.php
+                    (define get_settings funcition here)
+        modified:   readme.md
