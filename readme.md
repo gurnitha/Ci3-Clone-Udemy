@@ -283,3 +283,8 @@
 
         modified:   application/config/database.php
         modified:   readme.md
+
+#### 6. Add some parameters to $autoload['libraries']
+
+        modified:   application/config/autoload.php
+        modified:   readme.md
