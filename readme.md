@@ -278,3 +278,8 @@
 
         modified:   .gitignore
         modified:   readme.md
+
+#### 5. Connecting database with the app
+
+        modified:   application/config/database.php
+        modified:   readme.md
