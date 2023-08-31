@@ -300,3 +300,14 @@
 
         modified:   application/controllers/Auth.php
         modified:   readme.md
+
+#### 9. Create and load login page from Auth controller and added optimum asset
+
+        modified:   .gitignore
+        modified:   application/config/routes.php
+        modified:   application/controllers/Auth.php
+        modified:   application/controllers/Welcome.php
+        new file:   application/views/back/account/login.php
+        renamed:    application/views/admin/index.php -> application/views/back/admin/index.php
+        modified:   readme.md
+
