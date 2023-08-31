@@ -336,3 +336,13 @@
         new file:   application/helpers/general_helper.php
                     (define get_settings funcition here)
         modified:   readme.md
+
+#### 13. Load the general_helper in autoload
+
+       > $autoload['helper'] = array('...,'download','general');
+
+       NOTE:
+       'general' is the short of general_helper. You do not need to whire its complete name.
+       
+        modified:   application/config/autoload.php
+        modified:   readme.md
