@@ -311,3 +311,23 @@
         renamed:    application/views/admin/index.php -> application/views/back/admin/index.php
         modified:   readme.md
 
+#### 10. Set up some parameter in $autoload['helper']
+
+        modified:   application/config/autoload.php
+        modified:   readme.md
+
+        NOTE: 
+
+        For example, in oder to use form, we have to add form parameter in $autoload['helper']
+
+#### 11. Insert, load and fetch data from settings table to login page
+
+        modified:   application/config/autoload.php
+        modified:   application/views/back/account/login.php
+        modified:   readme.md
+
+        NOTE:
+
+        The codes to display data is too long.
+        Next: there should be a way to shorten it. Use helpers to solve it.
+

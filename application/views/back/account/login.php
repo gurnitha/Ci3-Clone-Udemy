@@ -38,7 +38,13 @@
                       <br><br><br>
                       <img src="<?php echo base_url() ?>uploads/logo.png" class="img-circle" width="70" height="70"/>
                   </h4>
-                  <h5 align="center"><a href="">System Name Here</a></h5>
+                  <!-- <h5 align="center"><a href="">System Name Here</a></h5> -->
+                  <h5 align="center">
+                    <a href="">
+                      <?php echo $this->db->get_where('settings', array('type' => 'system_name'))->row()->description;?><br>
+                      <?php echo $this->db->get_where('settings', array('type' => 'system_email'))->row()->description;?>
+                    </a>
+                  </h5>
                   <br>
                   <form method="post" role="form" id="loginform" class="form-horizontal form-material" action="">
                   <div class="form-group ">
