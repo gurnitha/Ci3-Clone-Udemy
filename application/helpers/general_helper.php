@@ -7,7 +7,7 @@ if(! function_exists('get_settings')){
 		$CI =& get_instance();
 		$CI->load->database();
 		$CI->db->where('type',$type);
-		$result = $CI->get('settings')->row()->description;
+		$result = $CI->db->get('settings')->row()->description;
 		return $result;
 	}
 }

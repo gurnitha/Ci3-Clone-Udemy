@@ -343,6 +343,14 @@
 
        NOTE:
        'general' is the short of general_helper. You do not need to whire its complete name.
-       
+
         modified:   application/config/autoload.php
         modified:   readme.md
+
+#### 14. Use get_settings function to fetch data in login page
+
+        modified:   application/helpers/general_helper.php (fixing bug)
+        modified:   application/views/back/account/login.php (use get_settings function)
+        modified:   readme.md
+
+        Result :)

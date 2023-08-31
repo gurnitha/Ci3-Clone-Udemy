@@ -41,8 +41,7 @@
                   <!-- <h5 align="center"><a href="">System Name Here</a></h5> -->
                   <h5 align="center">
                     <a href="">
-                      <?php echo $this->db->get_where('settings', array('type' => 'system_name'))->row()->description;?><br>
-                      <?php echo $this->db->get_where('settings', array('type' => 'system_email'))->row()->description;?>
+                      <?php echo get_settings('system_name'); ?>
                     </a>
                   </h5>
                   <br>
