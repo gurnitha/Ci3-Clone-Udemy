@@ -6,19 +6,19 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="description" content="We ddevelop creative software, eye catching software. We also train to become a creative thinker">
       <meta name="author" content="OPTIMUM LINKUP COMPUTERS">
-      <link rel="icon"  sizes="16x16" href="<?php echo base_url() ?>uploads/logo.png">
+      <link rel="icon"  sizes="16x16" href="<?= base_url() ?>uploads/logo.png">
       <title>Admin | Clone Udemy</title>
       <!-- Bootstrap Core CSS -->
-      <link href="<?php echo base_url(); ?>bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-      <link href="<?php echo base_url(); ?>css/bootstrap.min.css" rel="stylesheet">
-      <link href="<?php echo base_url(); ?>optimum/plugins/bower_components/bootstrap-extension/css/bootstrap-extension.css" rel="stylesheet">
+      <link href="<?= base_url() ?>bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+      <link href="<?= base_url() ?>css/bootstrap.min.css" rel="stylesheet">
+      <link href="<?= base_url() ?>optimum/plugins/bower_components/bootstrap-extension/css/bootstrap-extension.css" rel="stylesheet">
       <!-- animation CSS -->
-      <link href="<?php echo base_url(); ?>optimum/css/animate.css" rel="stylesheet">
+      <link href="<?= base_url() ?>optimum/css/animate.css" rel="stylesheet">
       <!-- Custom CSS -->
-      <link href="<?php echo base_url(); ?>optimum/css/style.css" rel="stylesheet">
+      <link href="<?= base_url() ?>optimum/css/style.css" rel="stylesheet">
       <!-- color CSS -->
-      <link href="<?php echo base_url(); ?>optimum/css/colors/megna.css" id="theme"  rel="stylesheet">
-      <link href="<?php echo base_url();?>optimum/plugins/bower_components/toast-master/css/jquery.toast.css" rel="stylesheet">
+      <link href="<?= base_url() ?>optimum/css/colors/megna.css" id="theme"  rel="stylesheet">
+      <link href="<?= base_url();?>optimum/plugins/bower_components/toast-master/css/jquery.toast.css" rel="stylesheet">
       <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
       <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
       <!--[if lt IE 9]>
@@ -36,12 +36,12 @@
               <div class="white-box">
                   <h4 class="box-title m-b-20" align="center">
                       <br><br><br>
-                      <img src="<?php echo base_url() ?>uploads/logo.png" class="img-circle" width="70" height="70"/>
+                      <img src="<?= base_url() ?>uploads/logo.png" class="img-circle" width="70" height="40"/>
                   </h4>
                   <!-- <h5 align="center"><a href="">System Name Here</a></h5> -->
                   <h5 align="center">
                     <a href="">
-                      <?php echo get_settings('system_name'); ?>
+                      <?= get_settings('system_name') ?>
                     </a>
                   </h5>
                   <br>
@@ -73,37 +73,37 @@
                       </div>
                   </div>
                   <br><br><br><br><br><br><br><br><br><br>
-                  <?php echo form_close();?>
-                  <form method="post" role="form" id="recoverform" class="form-horizontal form-material"  action="<?php echo base_url();?>login/reset_password">
+                  <?= form_close();?>
+                  <form method="post" role="form" id="recoverform" class="form-horizontal form-material"  action="<?= base_url();?>login/reset_password">
                   <input type="email" name="email" class="form-control" placeholder="email" style="width:100%" required>
                   <div class="form-group text-center m-t-20">
                       <div class="col-xs-6">
-                          <a href="<?php echo base_url();?>"><button class="btn btn-info btn-rounded btn-sm text-uppercase" type="button" style="color:white"><i class="fa fa-mail-reply-all"></i>&nbsp;Login</button></a>
+                          <a href="<?= base_url();?>"><button class="btn btn-info btn-rounded btn-sm text-uppercase" type="button" style="color:white"><i class="fa fa-mail-reply-all"></i>&nbsp;Login</button></a>
                           <button class="btn btn-success btn-rounded btn-sm  text-uppercase" type="submit" style="color:white"><i class="fa fa-key"></i>&nbsp;Reset Password</button>
                       </div>
                   </div>
                   <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-                  <?php echo form_close();?>
+                  <?= form_close();?>
               </div>
           </div>
       </section>
       <script src="js/index.js"></script> 
       <!-- jQuery -->
-      <script src="<?php echo base_url(); ?>optimum/plugins/bower_components/jquery/dist/jquery.min.js"></script>
+      <script src="<?= base_url() ?>optimum/plugins/bower_components/jquery/dist/jquery.min.js"></script>
       <!-- Bootstrap Core JavaScript -->
-      <script src="<?php echo base_url(); ?>optimum/bootstrap/dist/js/tether.min.js"></script>
-      <script src="<?php echo base_url(); ?>optimum/bootstrap/dist/js/bootstrap.min.js"></script>
-      <script src="<?php echo base_url(); ?>optimum/plugins/bower_components/bootstrap-extension/js/bootstrap-extension.min.js"></script>
+      <script src="<?= base_url() ?>optimum/bootstrap/dist/js/tether.min.js"></script>
+      <script src="<?= base_url() ?>optimum/bootstrap/dist/js/bootstrap.min.js"></script>
+      <script src="<?= base_url() ?>optimum/plugins/bower_components/bootstrap-extension/js/bootstrap-extension.min.js"></script>
       <!-- Menu Plugin JavaScript -->
-      <script src="<?php echo base_url(); ?>optimum/plugins/bower_components/sidebar-nav/dist/sidebar-nav.min.js"></script>
+      <script src="<?= base_url() ?>optimum/plugins/bower_components/sidebar-nav/dist/sidebar-nav.min.js"></script>
       <!--slimscroll JavaScript -->
-      <script src="<?php echo base_url(); ?>optimum/js/jquery.slimscroll.js"></script>
+      <script src="<?= base_url() ?>optimum/js/jquery.slimscroll.js"></script>
       <!--Wave Effects -->
-      <script src="<?php echo base_url(); ?>optimum/js/waves.js"></script>
+      <script src="<?= base_url() ?>optimum/js/waves.js"></script>
       <!-- Custom Theme JavaScript -->
-      <script src="<?php echo base_url(); ?>optimum/js/custom.min.js"></script>
+      <script src="<?= base_url() ?>optimum/js/custom.min.js"></script>
       <!--Style Switcher -->
-      <script src="<?php echo base_url(); ?>optimum/plugins/bower_components/styleswitcher/jQuery.style.switcher.js"></script>
-      <script src="<?php echo base_url(); ?>optimum/plugins/bower_components/toast-master/js/jquery.toast.js"></script>
+      <script src="<?= base_url() ?>optimum/plugins/bower_components/styleswitcher/jQuery.style.switcher.js"></script>
+      <script src="<?= base_url() ?>optimum/plugins/bower_components/toast-master/js/jquery.toast.js"></script>
   </body>
 </html>

@@ -354,3 +354,13 @@
         modified:   readme.md
 
         Result :)
+
+#### 15. Add logo and use new  php syntax
+
+        modified:   application/views/back/account/login.php
+        modified:   readme.md
+        new file:   uploads/logo.png
+
+        NOTE:
+
+        All good up to here :)
