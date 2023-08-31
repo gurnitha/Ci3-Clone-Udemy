@@ -273,3 +273,8 @@
         modified:   application/views/admin/index.php
 
         Example: <?php echo base_url(); ?>assets/bootstrap/dist/css/bootstrap.min.css"
+
+#### 4. Create database and 20 tables
+
+        modified:   .gitignore
+        modified:   readme.md
